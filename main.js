@@ -1,6 +1,6 @@
 
 let x = 10;
-let y = 10;
+let y = 20;
  
 console.log("Valores iniciais: x =", x, "e y =", y);
  
@@ -26,13 +26,13 @@ let nome, cidade;
 console.log(typeof nome);
 console.log(typeof cidade);
  
-nome = prompt("Qual é o seu nome?");
-cidade = prompt("Em qual cidade você mora?");
+nome = prompt("Qual seu nome?");
+cidade = prompt("Qual cidade você mora?");
  
 console.log(typeof nome);
 console.log(typeof cidade);
  
-console.log(`Olá, meu nome é ${nome} e eu moro em ${cidade}.`);
+console.log(`Olá, meu nome é ${nome} e moro em ${cidade}.`);
  
 //
  
